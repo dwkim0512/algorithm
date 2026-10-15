@@ -16,7 +16,7 @@ def solution(queue1, queue2):
 
     n = len(queue1)
 
-    while count <= 4 * n:
+    while count <= 3 * n:
         if current_sum == target:
             return count
 
